@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Birds from './components/Birds.js'
 
 const App = () => {
   const [birds, setBirds] = useState([
@@ -77,11 +78,11 @@ const App = () => {
 
 
 
-  return (
+  return ( 
     <div className="App">
       <Birds birds={birds} />
     </div>
   );
-
+  }
 
 export default App;
